@@ -49,7 +49,7 @@ public class OcrService : IOcrService
         var traineddataPath = Path.Combine(_tessdataPath, "eng.traineddata");
         if (!File.Exists(traineddataPath))
         {
-            Console.WriteLine($"[OCR Service] ERROR: eng.traineddata not found at: {traineddataPath}");
+            Console.WriteLine($"[OCR Service] ERROR12333: eng.traineddata not found at: {traineddataPath}");
             return new List<string> { $"Error: traineddata not found at {traineddataPath}" };
         }
 
