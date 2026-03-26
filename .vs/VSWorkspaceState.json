@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Helpers",
+    "\\Models",
+    "\\Models\\Domain",
+    "\\Models\\Enums",
+    "\\Models\\Requests",
+    "\\Models\\Responses",
+    "\\Services"
+  ],
+  "SelectedNode": "\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

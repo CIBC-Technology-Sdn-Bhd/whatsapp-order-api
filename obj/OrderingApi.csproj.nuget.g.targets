@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)tesseract\5.2.0\build\Tesseract.targets" Condition="Exists('$(NuGetPackageRoot)tesseract\5.2.0\build\Tesseract.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\10.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\10.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\3.119.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\3.119.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets')" />
+    <Import Project="$(NuGetPackageRoot)mono.texttemplating\3.0.0\buildTransitive\Mono.TextTemplating.targets" Condition="Exists('$(NuGetPackageRoot)mono.texttemplating\3.0.0\buildTransitive\Mono.TextTemplating.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.openapi\10.0.2\build\Microsoft.AspNetCore.OpenApi.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.openapi\10.0.2\build\Microsoft.AspNetCore.OpenApi.targets')" />
+  </ImportGroup>
+</Project>
